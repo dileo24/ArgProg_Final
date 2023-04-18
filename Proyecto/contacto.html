@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MotoZombie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/Proyecto/img/rueda.ico" />
+    <link rel="stylesheet" href="./contacto.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="container-fluid" style="padding-left: 0; padding-right: 0">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/Proyecto/index.html">MotoZombie</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="./indumentaria.html"
+              >
+                Indumentaria
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" aria-current="page" href="./proteccion.html">
+                Protección
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Motos
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/Proyecto/sub_pages/motorbikes/streetbike/streetbike.html"
+                    >Street</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/Proyecto/sub_pages/motorbikes/sportbike/sportbike.html"
+                    >Sport</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/Proyecto/sub_pages/motorbikes/endurobike/endurobike.html"
+                    >Cross</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--preguntas frec-->
+    <div class="preguntas">
+      <h1><strong>Ayuda - Preguntas Frecuentes</strong></h1>
+      <div class="pregEnvios">
+        <!-- ENVÍOS -->
+        <h2>Envíos</h2>
+        <h4><strong>¿CUÁL ES EL COSTO DE ENVÍO?</strong></h4>
+        <p>
+          El envío a cualquier localidad del país es gratis, si realizas una
+          compra superior a $ 42.000. En el caso de no alcanzar dicho monto, el
+          envío tendrá un costo (que se sumará al momento de realizar el pago)
+          el cual se calculará en función a los datos de envío ingresados al
+          finalizar el proceso de compra y la modalidad de entrega elegida, ya
+          sea a domicilio ó para retiro en sucursal del correo.
+        </p>
+        <h4><strong>¿CUÁNTO TARDA EN LLEGAR MI PEDIDO?</strong></h4>
+        <p>
+          Los envíos se entregan dentro de los 4 a 10 días hábiles en el
+          domicilio indicado por el comprador.
+        </p>
+        <h4><strong>¿CÓMO SE REALIZAN LAS ENTREGAS?</strong></h4>
+        <p>
+          Las entregas se realizan en cajas y bolsas cerradas a través de correo
+          OCA o Express Flex dependiendo tu dirección.
+        </p>
+      </div>
+
+      <div class="pregPago">
+        <!-- PAGO -->
+        <h2>Formas de pago</h2>
+        <h4><strong>¿CUÁNTO TIEMPO TENGO PARA PAGAR MI PEDIDO?</strong></h4>
+        <p>
+          Tenés hasta 72 hs. hábiles para realizar el pago de tu pedido. Una vez
+          confirmado el mismo, Mercado Pago nos notificará de la transacción
+          para darle curso al armado y envío.
+        </p>
+        <h4><strong>¿CÓMO SÉ QUE MI PAGO FUE ACREDITADO?</strong></h4>
+        <p>
+          Una vez que tu pago haya sido acreditado recibirás un correo nuestro
+          con la confirmacíon del mismo, así como también un correo que te
+          enviará Mercado Pago informandote que la transacción ha sido
+          completada.
+        </p>
+        <h4><strong>¿HACEN FACTURA A?</strong></h4>
+        <p>
+          Por el momento para ventas online únicamente realizamos factura
+          consumidor final.
+        </p>
+      </div>
+
+      <div class="pregStock">
+        <!-- Consultas de stock -->
+        <h2>Consultas de Stock</h2>
+        <h4><strong>¿HAY STOCK DE TODOS LOS PRODUCTOS?</strong></h4>
+        <p>
+          Sí, todos los productos que publicamos están en stock. En caso de
+          agotarse algún talle o color, esa característica se bloqueará (se verá
+          grisada y no podrás seleccionarla).
+        </p>
+        <h4>
+          <strong>COMPRÉ Y ME DIJERON QUE NO TIENEN STOCK, ¿QUÉ HAGO?</strong>
+        </h4>
+        <p>
+          Esto es inusual, pero nuestro Centro de Atención al Cliente va a
+          contactarse con vos para brindarte una solución. Si querés, podés
+          comunicarte con nosotros. No olvides incluir tu número de pedido.
+        </p>
+        <h4><strong>¿HAY ALGÚN LÍMITE DE COMPRA?</strong></h4>
+        <p>
+          No. El único límite de compra que tenemos es el stock de nuestro
+          e-Shop.
+        </p>
+      </div>
+
+      <div class="pregDevol">
+        <!-- Devoluciones -->
+        <h2>Consultas de Stock</h2>
+        <h4>
+          <strong
+            >ALGO QUE COMPRÉ NO ME SATISFACE UN 100%, ¿PUEDO DEVOLVERLO?</strong
+          >
+        </h4>
+        <p>
+          Sí, podes pedir el reintegro del dinero de todo lo que compres siempre
+          y cuando el producto no haya sido utilizado y conserve todas las
+          etiquetas y envoltorios originales. Para esto tenes hasta 30 días
+          (luego de haber recibido la compra) para contactarte con nosotros y
+          solicitarlo. De esta forma, vas a poder realizar una nueva compra
+          seleccionando el producto, color y talle que desees.
+        </p>
+        <h4>
+          <strong>¿CUÁNTO TIEMPO TENGO PARA HACER LA DEVOLUCIÓN?</strong>
+        </h4>
+        <p>
+          Si el producto adquirido presenta las mismas condiciones en las que
+          fue recibido o comprado (etiqueta y envoltorio) contás hasta 30
+          (treinta) días consecutivos desde la recepción del producto para
+          solicitar la devolución del dinero.
+        </p>
+        <h4><strong>¿REALIZAR UNA DEVOLUCIÓN TIENE COSTO?</strong></h4>
+        <p>
+          Los costos de la logística para la devolución corren a cuenta de
+          MotoZombie.
+        </p>
+      </div>
+    </div>
+    <!--formulario-->
+    <div class="content bg-dark">
+      <div class="contact-wrapper animated bounceInUp">
+        <div class="contact-form">
+          <h3>¿Seguís teniendo dudas? Mandanos un mensaje!</h3>
+          <form
+            action="https://formsubmit.co/joacodileo@gmail.com"
+            method="POST"
+            netlify
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Consulta a MotoZombie"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5500/Proyecto/contacto.html"
+            /><input
+              type="hidden"
+              name="_autoresponse"
+              value="Gracias por contactarnos! Le dejamos una copia de su consulta"
+            />
+            <div>
+              <p>
+                <label>Nombre completo</label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Ingrese su nombre..."
+                  title="Nombre solo acepta letras y espacios en blanco."
+                  pattern="^[A-Za-zÑñÁáÉéÍíÓóÚú\s]+$"
+                  required
+                />
+              </p>
+              <!-- <p>
+                <label>Apellido</label>
+                <input
+                  type="text"
+                  name="affair"
+                  placeholder="Ingrese su apellido..."
+                  title="Apellido solo acepta letras y espacios en blanco."
+                  pattern="^[A-Za-zÑñÁáÉéÍíÓóÚú\s]+$"
+                  required
+                />
+              </p> -->
+              <p>
+                <label>Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Ingrese su email..."
+                  title="Email incorrecto."
+                  pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                  required
+                />
+              </p>
+              <p>
+                <label>Numero de Telefono (ej: 3516863859)</label>
+                <input
+                  type="tel"
+                  placeholder="Ingrese su celular o teléfono de contacto..."
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{10}"
+                  required
+                />
+              </p>
+            </div>
+            <div class="der">
+              <p class="block">
+                <label>Mensaje</label>
+                <textarea
+                  name="message"
+                  rows="3"
+                  placeholder="Déjanos un mensaje!"
+                  required
+                ></textarea>
+              </p>
+              <p class="aclaracion">
+                Luego de presionar "ENVIAR" se le llevará a un CAPTCHA para
+                confirmar que es una persona. Luego se le redirigirá a esta
+                página y recibirá un mail con una copia de su consulta!
+                (Verifique su casilla de SPAM)
+              </p>
+              <p class="block">
+                <button
+                  type="submit"
+                  data-section="contacto"
+                  data-value="btn-enviar"
+                >
+                  ENVIAR
+                </button>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer bg-dark">
+      <div class="footerInfo">
+        <div class="footerArriba">
+          <div class="footerText">
+            <p>+54 351 6846532</p>
+            <p>motozombie@gmail.com</p>
+            <p>Paraná 6543, Córdoba Capital</p>
+          </div>
+
+          <div class="tarjetas">
+            <img src="./img/tarj.png" alt="tarjetas" />
+            <img src="./img/tarj.png" alt="tarjetas" />
+          </div>
+
+          <div class="redes">
+            <a
+              href="https://github.com/Frames2424/Proyecto_final_ArgPro4.0"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./img/icon-github.png" alt="git"
+            /></a>
+            <img src="./img/icon-instagram.png" alt="ig" />
+            <img src="./img/icon-linkedin.png" alt="linkd" />
+            <img src="./img/icon-wpp.png" alt="wpp" />
+          </div>
+          <div class="logoFootDiv">
+            <img class="logoFoot" src="./img/logo.png" alt="logoFoot" />
+          </div>
+        </div>
+        <p style="font-size: 1.2vh">@Proyecto Final Argentina Programa 4.0</p>
+      </div>
+    </footer>
+
+    <script src="./javascript.js"></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
