@@ -2,10 +2,9 @@
 
 # Proyecto realizado por:
 
-# Joaquín Francisco Di Leo Rodriguez
+Joaquín Francisco Di Leo Rodriguez
+Aylén Ortega
+Franco Martínez
 
-# Aylén Ortega
-
-# Franco Martínez
-
-# link del deploy: https://motozombie.vercel.app/
+# Deploy:
+https://motozombie.vercel.app/
