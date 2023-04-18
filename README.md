@@ -1,10 +1,13 @@
-# ArgProg_Final
+# Argentina Programa 4.0 Proyecto Final 
 
-# Proyecto realizado por:
+# Realizado por:
 
 -Joaquín Francisco Di Leo Rodriguez
+
 -Aylén Ortega
+
 -Franco Martínez
+
 
 # Deploy:
 https://motozombie.vercel.app/
